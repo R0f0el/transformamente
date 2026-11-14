@@ -1,4 +1,4 @@
-# TransformaMente — Desenvolvimento Humano
+# Lu Martins | TransformaMente — Desenvolvimento Humano
 
 Landing page institucional e de captação de pacientes da **TransformaMente**, consultório de psicoterapia da Dra. Luciene Martins (CRP 12/23619), com foco em atendimento clínico para mulheres — presencial em Florianópolis/SC e online para todo o Brasil.
 
