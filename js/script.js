@@ -7,8 +7,7 @@
   "use strict";
 
   // Número de WhatsApp da Dra. Luciene (formato internacional, somente dígitos).
-  // TODO: substituir pelo número real antes do deploy.
-  var WHATSAPP_NUMERO = "5548999999999";
+  var WHATSAPP_NUMERO = "5521999157338";
 
   /* -----------------------------------------------------------
      1. Captura e persistência de parâmetros UTM
