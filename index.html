@@ -20,8 +20,8 @@
   <!-- ===== SEÇÃO 1 · NAVEGAÇÃO ===== -->
   <header class="site-header">
     <div class="container header__inner">
-      <a href="#inicio" class="logo" aria-label="TransformaMente — Lu Martins Terapias">
-        <img src="assets/img/logo-transformamente.png" alt="TransformaMente — Desenvolvimento Humano" class="logo__img" width="150" height="128">
+      <a href="#inicio" class="logo" aria-label="TransformaMente — Desenvolvimento Humano, Dra. Luciene Martins">
+        <img src="assets/img/logo-transformamente.png" alt="TransformaMente — Desenvolvimento Humano" class="logo__img" width="190" height="159">
       </a>
 
       <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="siteNav">
@@ -51,10 +51,14 @@
             Agendar Minha Sessão via WhatsApp
           </a>
           <p class="hero__guarantee">🤍 Atendimento humanizado, sigiloso e acolhedor</p>
+          <p class="hero__telefone">
+            WhatsApp:
+            <a href="#" data-whatsapp-cta data-whatsapp-message="Olá, Dra. Luciene! Gostaria de agendar uma sessão de psicoterapia." target="_blank" rel="noopener">(21) 99915-7338</a>
+          </p>
         </div>
 
         <div class="hero__media">
-          <img src="assets/img/dra-luciene-martins.png" alt="Dra. Luciene Martins, psicóloga especialista em terapia para mulheres" loading="eager" width="520" height="520">
+          <img src="assets/img/luciene-martins.jpg" alt="Dra. Luciene Martins, psicóloga especialista em terapia para mulheres" loading="eager" width="520" height="520">
         </div>
       </div>
     </section>
@@ -128,9 +132,6 @@
     <!-- ===== SEÇÃO 5 · AUTORIDADE & HISTÓRIA ===== -->
     <section class="sobre" id="sobre">
       <div class="container sobre__inner">
-        <div class="sobre__media">
-          <img src="assets/img/dra-luciene-martins.png" alt="Dra. Luciene Martins" loading="lazy" width="460" height="460" class="sobre__foto">
-        </div>
         <div class="sobre__text">
           <h2 class="section-title">Eu reescrevi a minha história. Quero te ajudar a reescrever a sua.</h2>
           <p>Minha caminhada na psicologia clínica começou após atravessar, na própria família, uma dor profunda — e foi essa experiência que me mostrou, na prática, o poder transformador da escuta terapêutica. Desde então, dedico minha carreira a ajudar mulheres a se reencontrarem.</p>
@@ -174,18 +175,39 @@
       <div class="container">
         <h2 class="section-title">Histórias reais de transformação.</h2>
         <p class="section-subtitle">
-          Avaliações reais de pacientes, verificadas no Google.
+          Nota máxima entre as pacientes que já passaram pelo consultório.
         </p>
 
-        <!--
-          TODO: inserir aqui o widget de avaliações do Google Business Profile
-          (ex.: Trustindex, Elfsight ou embed oficial do Google) com os
-          depoimentos reais da Dra. Luciene. Nenhum depoimento deve ser
-          inventado — apenas relatos verificados de pacientes reais.
-        -->
-        <div class="depoimentos__placeholder">
-          <p>⭐ As avaliações verificadas do Google serão exibidas aqui.</p>
+        <div class="google-reviews">
+          <div class="google-reviews__nota">
+            <span class="google-reviews__numero">5,0</span>
+            <span class="google-reviews__estrelas" aria-hidden="true">★★★★★</span>
+            <span class="google-reviews__contagem">52 avaliações no Google</span>
+          </div>
+
+          <p class="google-reviews__texto">
+            Pacientes destacam o acolhimento desde a primeira sessão, a escuta empática
+            e a firmeza técnica da Dra. Luciene na condução do processo terapêutico.
+          </p>
+
+          <div class="google-reviews__acoes">
+            <a class="btn btn--primary" href="https://www.google.com/maps/place/?q=place_id:ChIJLWeBrX7bmwARZde6agCdlOA" target="_blank" rel="noopener">
+              Ler as avaliações no Google
+            </a>
+            <a class="google-reviews__link" href="https://search.google.com/local/writereview?placeid=ChIJLWeBrX7bmwARZde6agCdlOA" target="_blank" rel="noopener">
+              Deixar minha avaliação
+            </a>
+          </div>
         </div>
+
+        <!--
+          OPCIONAL: para exibir os depoimentos na íntegra dentro da página,
+          instale aqui o widget oficial de avaliações do Google (Trustindex,
+          Elfsight ou similar) — ele puxa os relatos reais ao vivo, já com a
+          atribuição exigida pelo Google, e mantém tudo sempre atualizado.
+          Não inserir textos de depoimento manualmente.
+        -->
+        <div id="google-reviews-widget"></div>
       </div>
     </section>
 
@@ -246,7 +268,25 @@
         <img src="assets/img/logo-transformamente.png" alt="TransformaMente — Desenvolvimento Humano" class="footer__logo" width="160" height="137" loading="lazy">
         <p>Dra. Luciene Martins — Psicóloga Clínica</p>
         <p>CRP 12/23619</p>
-        <p>Florianópolis/SC &nbsp;·&nbsp; Atendimento Presencial e Online</p>
+      </div>
+
+      <div class="footer__contato">
+        <h3>Contato</h3>
+        <p>
+          <a href="#" data-whatsapp-cta data-whatsapp-message="Olá, Dra. Luciene! Gostaria de agendar uma sessão de psicoterapia." target="_blank" rel="noopener">WhatsApp: (21) 99915-7338</a>
+        </p>
+        <p>Atendimento presencial e online</p>
+        <p>Segunda a sexta, das 9h às 21h</p>
+      </div>
+
+      <div class="footer__endereco">
+        <h3>Consultório</h3>
+        <p>Max &amp; Flora Center — Torre Flora</p>
+        <p>R. Lauro Linhares, 2055 — sala 707</p>
+        <p>Trindade, Florianópolis/SC — 88036-003</p>
+        <p>
+          <a href="https://www.google.com/maps/place/?q=place_id:ChIJLWeBrX7bmwARZde6agCdlOA" target="_blank" rel="noopener">Ver no mapa</a>
+        </p>
       </div>
 
       <div class="footer__links">
