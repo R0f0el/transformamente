@@ -585,7 +585,8 @@ a { color: inherit; text-decoration: none; }
   .footer__inner { grid-template-columns: 1fr 1fr; }
 }
 
-@media (max-width: 720px) {
+/* Menu em overlay antes dos grids: evita o topo apertado em tablets */
+@media (max-width: 960px) {
   .nav-toggle { display: flex; }
 
   .site-nav {
@@ -609,7 +610,9 @@ a { color: inherit; text-decoration: none; }
     opacity: 1;
     pointer-events: auto;
   }
+}
 
+@media (max-width: 720px) {
   .dores__grid,
   .pilares,
   .processo__grid,
